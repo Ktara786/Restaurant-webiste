@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+}
+body {
+  background-image: linear-gradient(to top, #020024, #0e2c3f, #0880ab);
+}
+.hero {
+  position: relative;
+  height: 630px;
+  width: 100%;
+  background-image: url("./Images/bgImage.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.dark-image {
+  background-color: black;
+  height: 630px;
+  width: 100%;
+  opacity: 0.6;
+  color: white;
+}
+
+header {
+  display: flex;
+  padding-top: 20px;
+  padding-left: 40px;
+}
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 50px;
+  padding-left: 380px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+
+  padding: 8px;
+}
+.textArea {
+  text-align: center;
+  margin-top: 50px;
+  width: 800px;
+  line-height: 1.5;
+  margin-left: 200px;
+  z-index: 1;
+}
+button {
+  padding: 8px;
+  border: 1px solid rgb(238, 231, 109);
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+}
+.book {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.info {
+  color: brown;
+}
+.info {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+.box {
+  height: 100px;
+  width: 300px;
+  padding: 20px;
+  border: 2px solid black;
+  background-color: #debc78;
+  backdrop-filter: blur(2px);
+  border: 1px solid rgb(232, 230, 183);
+  text-align: center;
+  color: black;
+  border-radius: 15px;
+  line-height: 2;
+}
+
+.FM {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: White;
+}
+.menuItems {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 200px;
+  gap: 50px;
+}
+.item {
+  height: 250px;
+  width: 200px;
+  background-color: aliceblue;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+.a {
+  background-image: url("./Images/Paneer-Tikka-Masala.png");
+  background-size: cover;
+  box-shadow: 0 6px 15px 6px rgba(254, 254, 254, 0.272);
+}
+.b {
+  background-image: url("./Images/Biryani.png");
+  background-size: cover;
+  box-shadow: 0 6px 15px 6px rgba(254, 254, 254, 0.272);
+}
+.c {
+  background-image: url("./Images/Chana-Masala.png");
+  background-size: cover;
+  box-shadow: 0 6px 15px 6px rgba(254, 254, 254, 0.272);
+}
+.d {
+  background-image: url("./Images/Pav-Bhaji.png");
+  background-size: cover;
+  box-shadow: 0 6px 15px 6px rgba(254, 254, 254, 0.272);
+}
+.e {
+  background-image: url("./Images/Tandoori-Naan.png");
+  background-size: cover;
+  box-shadow: 0 6px 15px 6px rgba(254, 254, 254, 0.272);
+}
+.f {
+  background-image: url("./Images/Masala-Chai.png");
+  background-size: cover;
+  box-shadow: 0 6px 15px 6px rgba(254, 254, 254, 0.272);
+}
+.g {
+  background-image: url("./Images/Bhel-Puri.png");
+  background-size: cover;
+  box-shadow: 0 6px 15px 6px rgba(254, 254, 254, 0.272);
+}
+.h {
+  background-image: url("./Images/Kheer.png");
+  background-size: cover;
+  box-shadow: 0 6px 15px 6px rgba(254, 254, 254, 0.272);
+}
+.dishName {
+  color: white;
+  margin-top: 200px;
+  margin-left: 20px;
+  margin-bottom: 8px;
+}
+.price {
+  margin-left: 20px;
+  color: white;
+}
+.about {
+  background-color: beige;
+}
+.container {
+  display: flex;
+  gap:70px;
+  margin-left: 180px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.text {
+  height:300px;
+  width:500px;
+  padding-top: 2cap;
+  line-height: 1.5;
+  letter-spacing: 2px;
+}
+.image{
+  height:300px;
+  width:300px;
+  border:2px solid black;
+  margin-bottom: 30px;
+}
+h1{
+  padding: 30px;
+  margin-top: 40px;
+}
+p{
+  color:white;
+}
