@@ -15,6 +15,7 @@ body {
   background-image: url("./Images/bgImage.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 .dark-image {
   background-color: black;
@@ -28,6 +29,9 @@ header {
   display: flex;
   padding-top: 20px;
   padding-left: 40px;
+}
+.hamburger {
+  display: none;
 }
 nav {
   display: flex;
@@ -44,7 +48,7 @@ a {
 }
 .textArea {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 80px;
   width: 800px;
   line-height: 1.5;
   margin-left: 200px;
@@ -158,28 +162,135 @@ button {
 }
 .container {
   display: flex;
-  gap:70px;
+  gap: 70px;
   margin-left: 180px;
   margin-top: 30px;
   margin-bottom: 20px;
 }
 .text {
-  height:300px;
-  width:500px;
+  height: 300px;
+  width: 500px;
   padding-top: 2cap;
   line-height: 1.5;
   letter-spacing: 2px;
 }
-.image{
-  height:300px;
-  width:300px;
-  border:2px solid black;
+.image {
+  height: 300px;
+  width: 380px;
+  border: 2px solid black;
   margin-bottom: 30px;
+  background-image: url("./Images/Restaurant.png");
+  background-size: cover;
 }
-h1{
+.Abt {
   padding: 30px;
   margin-top: 40px;
 }
-p{
-  color:white;
+p {
+  color: white;
+}
+h2 {
+  color: white;
+}
+.footerContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 40px 0px 70px 40px;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 2px;
+  line-height: 1.6;
+}
+.part {
+  width: 250px;
+}
+.social {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  letter-spacing: 2px;
+  line-height: 1.6;
+}
+.reserve {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Res {
+  color: white;
+}
+#reservation-form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+  width: 500px;
+}
+input {
+  height: 40px;
+}
+
+/*Responsive*/
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav {
+    padding-left: 0;
+    flex-direction: column;
+  }
+
+  .textArea {
+    margin-left: 0;
+    width: 90%;
+  }
+
+  .menuItems {
+    margin-left: 0;
+  }
+
+  .container {
+    flex-direction: column;
+    margin-left: 0;
+  }
+
+  .box {
+    width: 90%;
+  }
+
+  .footerContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .social {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    position: unset;
+  }
+  header {
+    padding-left: 0px;
+  }
+  .textArea {
+    font-size: 18px;
+  }
+
+  .FM,
+  .Abt,
+  .Res {
+    font-size: 24px;
+  }
+
+  button {
+    width: 100%;
+  }
 }

@@ -11,6 +11,9 @@
       <div class="dark-image">
         <header>
           <h1 class="logo">SPICE ROUTE</h1>
+          <div class="hamburger" id="hamburger">
+            &#9776; <!-- Hamburger icon -->
+          </div>
           <nav>
             <a href="home.html">Home</a>
             <a href="Menu.html">Menu</a>
@@ -90,19 +93,146 @@
         </div>
       </div>
     </section>
-    <section class = "about">
-     <center><h1>About US</h1></center> 
+    <section class="about">
+      <center><h1 class="Abt">About US</h1></center>
       <div class="container">
-      <div class="image">
-          
+        <div class="image"></div>
+        <div class="text">
+          Welcome to SPICE ROUTE, your gateway to authentic Indian cuisine. Our
+          restaurant offers a warm atmosphere and a diverse menu filled with
+          traditional dishes made from fresh, locally sourced ingredients. From
+          classic Butter Chicken to regional specialties, each dish is crafted
+          with care by our talented chefs. We pride ourselves on exceptional
+          service and creating memorable dining experiences. Join us at SPICE
+          ROUTE and savor the vibrant flavors of India!
+        </div>
       </div>
-      <div class="text">
-        Welcome to SPICE ROUTE, your gateway to authentic Indian cuisine. Our restaurant offers a warm atmosphere and a diverse menu filled with traditional dishes made from fresh, locally sourced ingredients. From classic Butter Chicken to regional specialties, each dish is crafted with care by our talented chefs. We pride ourselves on exceptional service and creating memorable dining experiences. Join us at SPICE ROUTE and savor the vibrant flavors of India!
+    </section>
+    <section class="Reservation">
+      <div class="reserve">
+        <center>
+          <h1 class="Res">
+            Book A table <br />
+            Make a Reservation
+          </h1>
+        </center>
+        <form id="reservation-form">
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder=" Name"
+            required
+          />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder=" Email"
+            required
+          />
+          <input
+            type="number"
+            id="phone"
+            name="phone"
+            placeholder=" Phone Number"
+            required
+          />
+          <input
+            type="date"
+            id="date"
+            name="date"
+            placeholder=" Reservation Date"
+            required
+          />
+          <input
+            type="time"
+            id="time"
+            name="time"
+            placeholder=" Reservation Time"
+            required
+          />
+          <input
+            type="number"
+            id="number"
+            name="number"
+            placeholder="  Number of Guests"
+            required
+          />
+          <textarea placeholder="Special Requests or Occasion"></textarea>
+          <button id="submitbtn">Submit</button>
+        </form>
       </div>
-    </div>
     </section>
     <footer>
-      <p>copyright</p>
+      <div class="footerContainer">
+        <div class="aboutRestro">
+          <h2>SPICE ROUTE</h2>
+          <p style="width: 300px">
+            Experience a culinary journey at Spice Route, where we blend
+            authentic flavors and innovative dishes to create unforgettable
+            dining experiences. Join us for a taste of the world!
+          </p>
+        </div>
+        <div class="part">
+          <p>
+            Contact Us<br />
+            Have questions or feedback? <br />
+            We’d love to hear from you! <br />
+            Reach out to us at [email@example.com] or call us at (123) 456-7890.
+          </p>
+        </div>
+        <div class="part">
+          <p>
+            Location<br />
+            Visit us at: <br />
+            123 Flavor Street, xyz City, India
+          </p>
+        </div>
+        <div class="part">
+          <p>
+            <a style="font-size: 15px" href="#">Home</a> <br />
+            <a style="font-size: 15px" href="#">About</a> <br />
+            <a style="font-size: 15px" href="#">Menu</a> <br />
+          </p>
+        </div>
+      </div>
+      <div class="social">
+        <div style="width: 350">
+          <p>
+            Hours of Operation <br />
+            Monday - Friday: 11 AM - 10 PM <br />
+            Saturday - Sunday: 10 AM - 11 PM
+          </p>
+        </div>
+        <br />
+        <div class="part">
+          <p>
+            Social Connection<br />
+            <img
+              src="Images/Insta.png"
+              alt="insta_icon"
+              height="50px"
+              width="50px"
+            />
+            <img
+              src="Images/linkdin.png"
+              alt="linkdin_icon"
+              height="60px"
+              width="60px"
+            />
+            <img
+              src="Images/facebook2.png"
+              alt="facebook_icon"
+              height="50px"
+              width="50px"
+            />
+          </p>
+        </div>
+      </div>
+      <p style="padding: 40px; text-align: center">
+        &copy;2025 SPICE ROUTE, All rights reserved
+      </p>
     </footer>
   </body>
 </html>
