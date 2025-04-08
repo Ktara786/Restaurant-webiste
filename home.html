@@ -11,10 +11,11 @@
       <div class="dark-image">
         <header>
           <h1 class="logo">SPICE ROUTE</h1>
-          <div class="hamburger" id="hamburger">
-            &#9776; <!-- Hamburger icon -->
+          <div class="hamburger">
+            &#9776;
+            <!-- Hamburger icon -->
           </div>
-          <nav>
+          <nav class="nav-menu">
             <a href="home.html">Home</a>
             <a href="Menu.html">Menu</a>
             <a href="About.html">Anout us</a>
@@ -22,17 +23,17 @@
           </nav>
         </header>
         <div class="textArea">
-          <h1 style="font-size: 46px">
+          <h1 class="txt-large">
             Welcome to Spice Route<br />
             Where Tradition Meets Innovation
           </h1>
-          <h3 style="font-size: 22px">
+          <h3 class="txt-medium">
             Discover the perfect blend of tradition and innovation at Masala
             Magic. From rich, aromatic spices to contemporary culinary artistry,
             every bite is a journey of flavors.
           </h3>
           <button class="book">Book a Table</button>
-          <p style="font-size: 20px">
+          <p class="txt-small">
             Secure your spot for an unforgattable dining experience
           </p>
         </div>
@@ -55,41 +56,81 @@
         <p>91-22-xxxx-xxxx</p>
       </div>
     </section>
+    <div class="hr">
+      <p>Mon-Sun : 9am to 10pm</p>
+      <p>Happy Hour: 4pm to 6pm</p>
+    </div>
+    <div class="locate">
+      <p>123 Spice Route restaurant st</p>
+    </div>
     <section class="featuredMenu">
       <h1 class="FM">Featured Menu</h1>
       <div class="menuItems">
-        <div class="item a">
-          <p class="dishName">Paneer Tikka Masala</p>
-          <p class="price">₹300</p>
+        <div class="item">
+          <div class="paneer a"></div>
+          <div class="item-text">
+            <p class="dishName">Paneer Tikka Masala</p>
+            <p class="price">₹300</p>
+          </div>
           <!--Shift + ctrl + 4 for rupee sign-->
         </div>
-        <div class="item b">
-          <p class="dishName">Biryani</p>
-          <p class="price">₹100</p>
+        <div class="item">
+          <div class="biryani a"></div>
+          <div>
+            <p class="dishName">Biryani</p>
+            <p class="price">₹100</p>
+          </div>
         </div>
-        <div class="item c">
-          <p class="dishName">Chana Masala</p>
-          <p class="price">₹200</p>
+        <div class="item">
+          <div class="chana-masala a"></div>
+          <div>
+            <p class="dishName">
+              Chana<br />
+              Masala
+            </p>
+            <p class="price">₹200</p>
+          </div>
         </div>
-        <div class="item d">
-          <p class="dishName">Pav Bhaji</p>
-          <p class="price">₹250</p>
+        <div class="item">
+          <div class="pav-bhaji a"></div>
+          <div>
+            <p class="dishName">Pav Bhaji</p>
+            <p class="price">₹250</p>
+          </div>
         </div>
-        <div class="item e">
-          <p class="dishName">Tandoori Naan</p>
-          <p class="price">₹200</p>
+        <div class="item">
+          <div class="tandoori-naan a"></div>
+          <div>
+            <p class="dishName">
+              Tandoori<br />
+              Naan
+            </p>
+            <p class="price">₹200</p>
+          </div>
         </div>
-        <div class="item f">
-          <p class="dishName">Masala chai</p>
-          <p class="price">₹100</p>
+        <div class="item">
+          <div class="masala-chai a"></div>
+          <div>
+            <p class="dishName">
+              Masala<br />
+              chai
+            </p>
+            <p class="price">₹100</p>
+          </div>
         </div>
-        <div class="item g">
-          <p class="dishName">Bhel Puri</p>
-          <p class="price">₹150</p>
+        <div class="item">
+          <div class="bhel-puri a"></div>
+          <div>
+            <p class="dishName">Bhel Puri</p>
+            <p class="price">₹150</p>
+          </div>
         </div>
-        <div class="item h">
-          <p class="dishName">Kheer</p>
-          <p class="price">₹190</p>
+        <div class="item">
+          <div class="kheer a"></div>
+          <div>
+            <p class="dishName">Kheer</p>
+            <p class="price">₹190</p>
+          </div>
         </div>
       </div>
     </section>
@@ -167,7 +208,7 @@
     <footer>
       <div class="footerContainer">
         <div class="aboutRestro">
-          <h2>SPICE ROUTE</h2>
+          <span> <h2>SPICE ROUTE</h2></span>
           <p style="width: 300px">
             Experience a culinary journey at Spice Route, where we blend
             authentic flavors and innovative dishes to create unforgettable
@@ -176,7 +217,7 @@
         </div>
         <div class="part">
           <p>
-            Contact Us<br />
+            <span> Contact Us<br /></span>
             Have questions or feedback? <br />
             We’d love to hear from you! <br />
             Reach out to us at [email@example.com] or call us at (123) 456-7890.
@@ -184,13 +225,14 @@
         </div>
         <div class="part">
           <p>
-            Location<br />
+            <span>Location<br /></span>
             Visit us at: <br />
             123 Flavor Street, xyz City, India
           </p>
         </div>
         <div class="part">
           <p>
+            <span>Links</span><br />
             <a style="font-size: 15px" href="#">Home</a> <br />
             <a style="font-size: 15px" href="#">About</a> <br />
             <a style="font-size: 15px" href="#">Menu</a> <br />
@@ -200,7 +242,7 @@
       <div class="social">
         <div style="width: 350">
           <p>
-            Hours of Operation <br />
+           <span> Hours of Operation <br /></span>
             Monday - Friday: 11 AM - 10 PM <br />
             Saturday - Sunday: 10 AM - 11 PM
           </p>
@@ -208,7 +250,7 @@
         <br />
         <div class="part">
           <p>
-            Social Connection<br />
+            <span>Social Connection<br /></span>
             <img
               src="Images/Insta.png"
               alt="insta_icon"
@@ -230,9 +272,7 @@
           </p>
         </div>
       </div>
-      <p style="padding: 40px; text-align: center">
-        &copy;2025 SPICE ROUTE, All rights reserved
-      </p>
+      <p class="copyright">&copy;2025 SPICE ROUTE, All rights reserved</p>
     </footer>
   </body>
 </html>

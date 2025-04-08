@@ -185,3 +185,11 @@ Tone: "Book a Table" may feel more immediate and casual, while "Reservations" ca
 
 Conclusion:
 You can use both buttons based on the context you want to convey. If your restaurant offers both casual dining and formal reservations, you might keep them separate to cater to different customer needs. If not, you can combine the functionalities into one comprehensive option.
+
+Random Quote Generator
+Weather App
+
+
+hamburger
+location contact 
+full width 
